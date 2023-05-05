@@ -1,0 +1,29 @@
+.footer{
+    margin-top: 5rem;
+    border-top: 1px solid #fff;
+
+    &__social{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+    
+        &-list{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3em;
+            li{
+                display: flex;
+                align-items: center;
+                gap: 0.5em;
+            }
+            a{
+                color: #fff;
+            }
+        }
+    }
+    svg{
+        fill: #8a1931;
+    }
+}
